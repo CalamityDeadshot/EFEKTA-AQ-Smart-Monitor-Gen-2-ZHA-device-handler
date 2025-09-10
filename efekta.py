@@ -153,7 +153,7 @@ class IlluminanceCluster(IlluminanceMeasurement, CustomCluster):
         cluster_id=IlluminanceCluster.cluster_id,
         endpoint_id=1,
         translation_key="whatever",
-        fallback_name="Night mode start hour",
+        fallback_name="Night mode stop hour",
         device_class=NumberDeviceClass.DURATION,
         unit=UnitOfTime.HOURS,
         min_value=0,
